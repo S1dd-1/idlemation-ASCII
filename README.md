@@ -4,11 +4,11 @@ A simple code that runs an animation as a part of the desktop (technically its o
 
 ## Features
 1. Through animation modules present in the *Animations* folder, users can modify or create their own ASCII animations.
-2. The animation can start playing on startup
-3. Users can configure the animation settings via the *config* csv file created after running the code once. They can:
+2. The animation can be set to run automatically on system startup.
+3. Users can configure the animation settings via the *config.csv* file created after running the code once. They can:
      1. Choose whether or not to automatically play an animation on startup,
-     2. Choose which animation module to use,
-     3. Configure the actual animation player (speed, background colour, font colour etc.)
+     2. Choose which animation module to load,
+     3. Configure animation behaviour (speed, background colour, font, font colour etc.)
    
 ## How to get On-Startup to get working
 1. Press Win+R to open the run command window
@@ -17,19 +17,19 @@ A simple code that runs an animation as a part of the desktop (technically its o
 4. In the space provided paste something like
      1. *"C:\Path\To\pythonw.exe" "C:\Path\To\idlemation.pyw"*
      2. Example: *"C:\Users\Blaziken\AppData\Local\Programs\Python\Python312\pythonw.exe" "C:\Users\Blaziken\Desktop\PythonCodes\idlemation.pyw"*
-     3. PRECAUTION : Make sure you link to *pythonw.exe* path and not *python.exe*
-6. Click Next, name it anything (e.g., ASCII-Animation), and finish.
+     3. $${\color{red}PRECAUTION}$$ : Make sure you link to *pythonw.exe* path and not *python.exe*
+6. Click Next, name the shortcut anything (e.g., ASCII-Animation), and finish.
 
 ## How to configure the animation player settings
-1. Run the program once, you should see the default animation play (counting numbers)
-2. Go to the folder where *idlemation.pyw* is saved, there you should see a new *config.csv* file
-3. Open it and you can configure the settings
-4. PRECAUTION : Use hexadecimal codes for their respective colours; do not include the *.py* extension when choosing animation modules
+1. Run the program once; the default animation play (counting numbers) should play
+2. In the same folder where *idlemation.pyw* is saved, you should see a new *config.csv* file
+3. Open it (through text editor or a spreadsheet program) and configure the settings according to your need
+4. $${\color{red}PRECAUTION}$$ : Use hexadecimal codes for their respective colours; do not include the *.py* extension when selecting animation modules
 
 ## How to create an animation module
-1. Open *ANIM_template.py* module and make each individual frame inside the *frames* list
-2. The box provided in the template is optional
-3. Optimally, each frame should be 33 spaces across and 23 spaces deep
-4. PRECAUTION : The list should be named *frames*
+1. Open *ANIM_template.py* module (inside the *Animations* folder) and add each individual frame inside the *frames* list
+2. The provided ASCII “box” in the template is optional
+3. For consistency, each frame should be roughly 33 characters wide and 23 lines tall (recommended)
+4. $${\color{red}PRECAUTION}$$ : The list should be named *frames* and each element should be a string
 
    
