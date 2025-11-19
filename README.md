@@ -1,6 +1,6 @@
 # idlemation-ASCII
 
-A simple code that runs an animation as a part of the desktop (technically its on top of the desktop, but below all other programs). $${\color{red}PRECAUTION} : Only works on Windows currently.
+A simple code that runs an animation as a part of the desktop (technically its on top of the desktop, but below all other programs). $${\color{red}PRECAUTION}$$ : Only works on Windows currently.
 
 ## Features
 1. Through animation modules present in the *Animations* folder, users can modify or create their own ASCII animations.
