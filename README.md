@@ -29,7 +29,7 @@ A simple code that runs an animation as a part of the desktop (technically its o
 ## How to create an animation module
 1. Open *ANIM_template.py* module (inside the *Animations* folder) and add each individual frame inside the *frames* list
 2. The provided ASCII “box” in the template is optional
-3. For consistency, each frame should be roughly 25 characters wide and 33 lines tall (recommended)
+3. For consistency, each frame should be roughly 33 characters across and 25 characters deep (recommended)
 4. $${\color{red}PRECAUTION}$$ : The list should be named *frames* and each element should be a string
 
    
